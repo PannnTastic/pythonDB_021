@@ -47,7 +47,7 @@ def hasil_prediksi () :
         connect.execute(create_table_query)
 
         # insert data
-        insert_data_query = '''--sql\
+        insert_data_query = '''--sql
         insert into nilai_siswa(
         nama,
         nilai_matematika,
